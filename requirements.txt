@@ -1,0 +1,12 @@
+# Control by Hand — cross-platform Python dependencies
+#
+# pip detects the operating system and CPU architecture automatically, then
+# chooses the appropriate wheel. It also skips packages already installed at a
+# compatible version, so rerunning the install command is safe and incremental.
+#
+# Supported Python versions: 3.10, 3.11, 3.12 (enforced by install.py).
+
+numpy>=1.26.0,<2.0.0
+opencv-contrib-python>=4.10.0,<5.0.0
+mediapipe==0.10.21
+ultralytics>=8.3.0,<9.0.0
