@@ -243,7 +243,3 @@ If your default `python` is 3.14, explicitly use a supported interpreter, for ex
 - Object labels come from the selected YOLO model and may be wrong, missing, or affected by lighting and occlusion.
 - Eye-closure status is a simple landmark-based estimate; it is not suitable for medical, safety-critical, or identity-verification use.
 - This project does not perform operating-system input control. It only displays visual results.
-
-## Contributing
-
-Before opening a change, create and activate the virtual environment, run the app, and verify that the camera preview still opens. Keep new dependencies pinned or bounded in `requirements.txt` when they affect reproducibility.
