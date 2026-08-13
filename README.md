@@ -247,8 +247,3 @@ If your default `python` is 3.14, explicitly use a supported interpreter, for ex
 ## Contributing
 
 Before opening a change, create and activate the virtual environment, run the app, and verify that the camera preview still opens. Keep new dependencies pinned or bounded in `requirements.txt` when they affect reproducibility.
-
-## License
-
-No license file is currently included. Add an appropriate license before redistributing the project.
-
